@@ -1,6 +1,6 @@
 {
   "name": "await-promise",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Waits for yielded promises to complete",
   "main": "index.js",
   "scripts": {
