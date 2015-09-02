@@ -1,4 +1,4 @@
-function await(generator) {
+export default function await(generator) {
 	let series = Promise.resolve();
 	let calls = [];
 

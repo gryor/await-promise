@@ -1,5 +1,10 @@
 "use strict";
 
+Object.defineProperty(exports, "__esModule", {
+	value: true
+});
+exports["default"] = await;
+
 function await(generator) {
 	var series = Promise.resolve();
 	var calls = [];
@@ -38,3 +43,5 @@ function await(generator) {
 
 	return Promise.all(calls);
 }
+
+module.exports = exports["default"];
