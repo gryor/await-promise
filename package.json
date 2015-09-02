@@ -1,0 +1,28 @@
+{
+  "name": "await-promise",
+  "version": "0.0.1",
+  "description": "Waits for yielded promises to complete",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --compilers js:babel/register"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wilhelmmatilainen/await-promise.git"
+  },
+  "keywords": [
+    "es6",
+    "await",
+    "wait",
+    "promise",
+    "generator",
+    "yield",
+    "task"
+  ],
+  "author": "Wilhelm Matilainen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wilhelmmatilainen/await-promise/issues"
+  },
+  "homepage": "https://github.com/wilhelmmatilainen/await-promise#readme"
+}
